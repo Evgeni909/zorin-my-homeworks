@@ -1,0 +1,92 @@
+h1 {
+    text-align: right;
+    color: orange;
+}
+
+ p + h2 {
+    color:orange;
+}
+
+ ul + h2 {
+     color:blue;
+ }
+
+ ul span {
+     font-weight: bold;
+ }
+
+ div em {
+     background-color: green;
+     color: white;
+ }
+
+ p:first-letter {
+     color: red;
+     font-size: 30px;
+     font-weight: bold;
+ }
+
+.smallcomplecation1 {
+    color: grey;
+}
+
+.smallcomplecation2 {
+    color: red;
+}
+
+.smallcomplecation3 {
+    color: green;
+}
+
+.smallcomplecation4 {
+    color: red;
+}
+
+td[colspan] {
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+td[rowspan] {
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+}
+
+table {
+    border: 1px solid black;
+    width: 500px;
+}
+
+tr {
+    background-color: green;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+}
+
+.smallcomplecation5 {
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+}
+
+.smallcomplecation6 {
+    color: orange;
+    background-color: white;
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+

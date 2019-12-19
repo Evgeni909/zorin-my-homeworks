@@ -1,0 +1,15 @@
+[href^="https://"] {
+    color: #f70;
+}
+
+[href*="google"] {
+    color: #666;
+}
+
+span {
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+    -o-transform: rotate(-90deg);
+    display: inline-block;  padding-left: 8px; padding-right: 8px; vertical-align: baseline;
+}
