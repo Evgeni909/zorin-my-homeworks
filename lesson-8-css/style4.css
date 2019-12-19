@@ -1,0 +1,18 @@
+table {
+    border-spacing: 10px;
+}
+tr:nth-child(even) {
+    background-color: lightskyblue;
+}
+td:nth-child(3) {
+    background-color: papayawhip;
+}
+td:nth-child(5) {
+    background-color: papayawhip;
+}
+td:nth-child(7) {
+    background-color: papayawhip;
+}
+td:nth-child(9) {
+    background-color: papayawhip;
+}
