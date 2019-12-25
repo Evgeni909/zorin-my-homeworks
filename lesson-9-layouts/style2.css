@@ -1,0 +1,44 @@
+ul li {
+    display: inline;
+}
+
+ul li a{
+    text-decoration: none;
+    border: 1px solid silver;
+    padding: 8px 10px;
+    border-radius: 15%;
+}
+
+li:first-child a, li:last-child a,
+li:nth-child(2) a, li:nth-child(11) a {
+    border: none;
+    padding: 20px;
+}
+
+li:nth-child(5) a {
+    border: none;
+    vertical-align: -9px;
+}
+
+li:nth-child(7) a {
+    background-color: blue;
+    color: white;
+}
+
+li span {
+    vertical-align: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
