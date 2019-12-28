@@ -1,0 +1,210 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:after, *:before {
+    box-sizing: inherit;
+}
+
+.container {
+    width: 21%;
+    font-family: Trebuchet MS, sans-serif;
+    border: 4px solid rgb(238,129,41);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.row-header h3 {
+    background-color: rgb(238,129,41);
+    margin: 0;
+    padding: 23px 0;
+    color: white;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+
+.row-card h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.row-card p {
+    position: relative;
+    bottom: 14px;
+    color: rgb(53,73,90);
+}
+
+.row-card p span {
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.row-card p sub {
+    position: relative;
+    top: 5px;
+    right: 6px;
+    font-size: 17px;
+}
+
+.row-card p sup {
+    position: relative;
+    bottom: 34px;
+    right: 6px;
+    font-size: 22px;
+}
+
+.row-card .row-list li {
+    list-style-type: none;
+    padding: 7px 20px;
+    text-align: left;
+    margin-bottom: 1px;
+    color: #93979f;
+}
+
+.row-card .row-list li:before {
+    content: url(arrow.png);
+    margin-right: 17px;
+}
+
+.row-list li:nth-child(even), .row-list li:nth-child(odd) {
+    position: relative;
+    right: 20px;
+    bottom: 7px;
+}
+
+.row-list li:nth-child(even) {
+    background-color: rgb(245, 245, 246);
+}
+
+.row-list li:nth-child(odd) {
+    background-color: rgb(237,245,253)
+}
+
+.row-list li:nth-child(1), .row-list li:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.row-card .button button {
+    background-color: rgb(238,129,41);
+    padding: 12px 74px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+    font-weight: bold;
+    border-radius: 7px;
+    position: relative;
+    bottom: 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.container {
+    border: 3px solid orange;
+    width: 21%;
+    text-align: center;
+    border-radius: 2%;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+.header h3 {
+    background-color: orange;
+    margin: 0;
+    padding: 20px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 400;
+    font-stretch: condensed;
+}
+
+ul li {
+    list-style-type: none;
+    background-image: url(arrow.png) no repeat;
+    list-style-position: inside;
+    border: 1px solid white;
+    text-align: left;
+    padding: 6px 0;
+}
+
+ul li:nth-child(1), ul li:nth-child(2),
+ul li:nth-child(3), ul li:nth-child(4) {
+    background-color: silver;
+    width: 95%;
+}
+
+ul li:nth-child(1), ul li:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    padding: 6px 40px;
+    text-transform: uppercase;
+}
+
+form {
+
+}
+
+sup, sub {
+    font-weight: bold;
+}
+
+.card h3 {
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 100;
+}
+
+.card span {
+    font-size: 49px;
+}*/
