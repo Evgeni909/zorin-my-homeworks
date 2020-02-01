@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Task 1</title>
+</head>
+<body>
+  <script>
+    var lastName = prompt('Ваша фамилия ?');
+    var firstName = prompt('Ваше имя ?');
+    var patronymic = prompt('Ваше отчество ?');
+    var age = parseInt(prompt('Ваш возраст ?'));
+    var gender = confirm('Ваш пол мужской? (ок - да, отмена - нет)');
+    if (gender) {
+      gender = "мужской";
+    } else {
+      gender = "женский";
+    }
+    var ageInDays = age * 365;
+    var throughFiveYears = age + 5;
+    var fullName = lastName + ' ' + firstName + ' ' + patronymic;
+    var pension;
+    if (age > 60) {
+      pension = ' да';
+    } else {
+      pension = ' нет';
+    }
+    //if ((age > 58 && Gender === false) || (age > 63 && Gender === true)) {
+     // pension = ' да';
+    //} else if ((age < 58 && Gender === false) || (age < 63 && Gender === true)) {
+      //pension = ' нет';
+    //}
+    alert('ваше ФИО: ' + fullName + '\n' + 'ваш возраст в годах: ' + age + '\n' + 'ваш возраст в днях: ' + ageInDays
+      + '\n' + 'через 5 лет вам будет: ' + throughFiveYears + '\n' + 'ваш пол: ' + gender + '\n' + 'вы на пенсии: ' +
+      pension);
+  </script>
+</body>
+</html>
+
