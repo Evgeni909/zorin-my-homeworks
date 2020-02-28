@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.blog {
+    font-size: 1rem;
+}
+
+.blog__body {
+    padding: 1.4rem 0 4.2rem 0;
+    background: #f2f3f8;
+}
+
+.blog__title {
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.title {
+    font-family: 'Merriweather', serif;
+    color: #131415;
+    font-size: 45px;
+    line-height: 1;
+    font-weight: 700;
+}
+
+.blog__content {
+    display: flex;
+    /*justify-content: center;*/
+    margin-left: 4.6rem; /*при использовании свойств флекса, контент при сужении начинал вылезать за границу экрана, не полчилось по другому придумать решение этой проблемы и центрирование элементов кроме отступов слева и  position: absolute;, подскажите как равильно разрешить эту ситуацию и реализовывать адаптив в данном случае?*/
+}
+
+.item-blog {
+    padding: 0 15px;
+}
+
+.item-blog__image img { /*не могу понять как сделать картинки сжимающимися при уменьшении масштабов экрана*/
+    width: 25rem;
+    height: 20rem;
+}
+
+.item-blog__text {
+    position: relative;
+    top: -19px;
+    padding-bottom: 1.5rem;
+    background: white;
+}
+
+.item-blog__data {
+    margin: 0;
+    padding: 1.25rem 0 0.625rem 1.25rem;
+    font-family: 'Lato', sans-serif;
+    color: #9b9b9b;
+    font-size: 0.85rem;
+    line-height: 1.7;
+}
+
+.item-blog__title {
+    display: block;
+    margin: 0 0 2.2rem 1.25rem;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #131415;
+    font-size: 1.5rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.item-blog__link {
+    margin: 2.5rem 0 0 1.25rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    color: #9b9b9b;
+    letter-spacing: .7px;
+    cursor: pointer;
+}
+
+.item-blog__title:hover, .item-blog__link:hover {
+    color: orange;
+}
